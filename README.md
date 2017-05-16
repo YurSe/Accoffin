@@ -1,2 +1,2 @@
-"# Accofin" 
+# Accofin 
 Android application.
