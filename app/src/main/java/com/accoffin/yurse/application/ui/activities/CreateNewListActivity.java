@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
 
 import com.accoffin.yurse.application.R;
+import com.accoffin.yurse.application.ui.Constants;
 import com.accoffin.yurse.application.ui.adapters.CategoriesAdapter;
 
 import java.util.ArrayList;
@@ -34,8 +35,9 @@ public class CreateNewListActivity extends AppCompatActivity {
             @Override
             public void onClick(String text) {
                 Intent intent = new Intent(CreateNewListActivity.this, InformationListActivity.class);
+                intent.putExtra(Constants.TITLE, text);
                 startActivity(intent);
-                  Toast.makeText(CreateNewListActivity.this, text, Toast.LENGTH_SHORT).show();
+                //  Toast.makeText(CreateNewListActivity.this, text, Toast.LENGTH_SHORT).show();
             }
         });
         recyclerView.setAdapter(adapter);
