@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "12118888090",
+    "firebase_url": "https://accoffin-9da44.firebaseio.com",
+    "project_id": "accoffin-9da44",
+    "storage_bucket": "accoffin-9da44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12118888090:android:8ee9e90e17e67d4b",
+        "android_client_info": {
+          "package_name": "com.accoffin.yurse.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12118888090-ia3qqlejsibs9g0m3655nq7dq5k2oi2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.accoffin.yurse.application",
+            "certificate_hash": "3be053289c03b68e05c13d9434c2780f7c2cad8a"
+          }
+        },
+        {
+          "client_id": "12118888090-t8tj09clbfb0cnidmk10mkljq20bf0fd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF7dstJWzvhSSXYunIy_Bp9DcGVkFO7Ac"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12118888090-t8tj09clbfb0cnidmk10mkljq20bf0fd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
